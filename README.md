@@ -67,9 +67,6 @@ https://docs.astronomer.io/software/install-cli?tab=windows#install-the-astro-cl
 - os
 - sqlalchemy
 
-## Enlaces:
-- Guia de instalación de Apache Airflow en Ubuntu: https://unixcop.com/how-to-install-apache-airflow-on-ubuntu-20
-
 ## Estructura y flujo de ejecución
   Se generarán archivos ".sql" con las consultas correspondientes a cada centro educativo, normalizando las columnas tenidas en cuenta.
 
