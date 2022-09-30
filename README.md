@@ -56,8 +56,9 @@ El archivo auxiliar de códigos postales se encuentra en la carpeta assets.
 
 
 ## Requerimientos:
-- Apache-Airflow 2.2.2
-- Python 3.6
+# Airflow usando Docker
+https://docs.astronomer.io/software/install-cli?tab=windows#install-the-astro-cli
+
 ## Modulos utilizados en Python
 - pathlib
 - logging
@@ -119,3 +120,49 @@ EJ: GFUNRioCuarto_select.csv
 Se colocará grupo-letra-siglas de la universidad y localidad, seguido por "_process.txt" para diferenciar el dag realizado.
 
 EJ: GFUNRioCuarto_process.txt
+
+# AIRFLOW
+
+https://airflow.apache.org/
+
+# Informacion importante de como comenzar con Airflow
+https://www.astronomer.io/guides/airflow-sql-tutorial/
+
+# Curso de Alkemy de Airflow
+https://academy.alkemy.org/curso/python/contenidos/clase-1-introduccion-a-flujos-de-trabajo
+
+# Guía definitiva de Airflow
+[Guia](https://www.astronomer.io/ebooks/dags-definitive-guide.pdf)
+
+# Airflow Hooks Explained 101
+https://hevodata.com/learn/airflow-hooks/
+
+# Instalar providers de amazon
+https://airflow.apache.org/docs/apache-airflow-providers-amazon/stable/index.html
+# Documentacion de amazon s3 en airflow
+https://airflow.apache.org/docs/apache-airflow-providers-amazon/stable/_api/airflow/providers/amazon/aws/hooks/s3/index.html
+
+
+# From Local Filesystem to Amazon S3
+https://airflow.apache.org/docs/apache-airflow-providers-amazon/stable/operators/transfer/local_to_s3.html
+
+## Quickstart AWS SDK for Python.
+https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html
+
+## How to use Boto3 to upload files to an S3 Bucket?
+https://www.learnaws.org/2022/07/13/boto3-upload-files-s3/
+
+
+# Airflow Dynamic DAGs: The powerful way with Jinja and YAML
+https://www.youtube.com/watch?v=HuMgMTHrkn4&ab_channel=DatawithMarc
+
+# Dynamically Generating DAGs in Airflow
+https://www.astronomer.io/guides/dynamically-generating-dags/
+
+# Loggers
+
+# Configuración del archivo de logger.cfg
+https://docs.python.org/3/library/logging.config.html#logging-config-fileformat
+
+# Ejemplo de archivo de configuración
+https://realpython.com/lessons/logger-config-file/
