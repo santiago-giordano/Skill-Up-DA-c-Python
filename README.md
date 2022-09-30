@@ -79,6 +79,9 @@ https://docs.astronomer.io/software/install-cli?tab=windows#install-the-astro-cl
 
   Finalmete, a traves de las herramientas provistas por AWS (operadores y hooks S3), los datos almacenados como ".txt" son transformados a strings, y almacenados en el servicio S3.
 
+# Creación de una Wiki del proyecto
+Se recomienda crear una wiki del proyecto en Github para dejar anotaciones, lecciones aprendidas o convenciones necesarias adicionales.
+
 # **Convención para nombrar carpetas**
 
 OT000-python
