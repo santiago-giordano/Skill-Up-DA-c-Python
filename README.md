@@ -47,9 +47,7 @@ grupo de universidades, utilizando Pandas.
 ### Assets 🎨
 
 
-La base de datos con la información que reunió el Ministerio de Educación se encuentra aquí:
-
-● A proveer en el transcurso del proyecto.
+La base de datos con la información que reunió el Ministerio de Educación se proveerá en el transcurso del proyecto.
 
 
 El archivo auxiliar de códigos postales se encuentra en la carpeta assets.
