@@ -149,24 +149,6 @@ https://airflow.apache.org/docs/apache-airflow-providers-amazon/stable/operators
 ## Quickstart AWS SDK for Python.
 https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html
 
-## How to use Boto3 to upload files to an S3 Bucket?
-https://www.learnaws.org/2022/07/13/boto3-upload-files-s3/
-
-
-# Airflow Dynamic DAGs: The powerful way with Jinja and YAML
-https://www.youtube.com/watch?v=HuMgMTHrkn4&ab_channel=DatawithMarc
-
-# Dynamically Generating DAGs in Airflow
-https://www.astronomer.io/guides/dynamically-generating-dags/
-
-# Loggers
-
-# Configuración del archivo de logger.cfg
-https://docs.python.org/3/library/logging.config.html#logging-config-fileformat
-
-# Ejemplo de archivo de configuración
-https://realpython.com/lessons/logger-config-file/
-
 # Create a S3 bucket into AWS.
 Create a S3 bucket and call it as you want.
 
@@ -193,3 +175,23 @@ Since we have many services and specific permissions to interact with them, we h
 This is a very important step. You have to make sure of copy and save the credentials because we will use them later.
 
 ![image](https://user-images.githubusercontent.com/2921066/194302285-47cbb07e-4128-40f3-aabd-0c7c3a276831.png)
+
+## How to use Boto3 to upload files to an S3 Bucket?
+https://www.learnaws.org/2022/07/13/boto3-upload-files-s3/
+
+
+# Airflow Dynamic DAGs: The powerful way with Jinja and YAML
+https://www.youtube.com/watch?v=HuMgMTHrkn4&ab_channel=DatawithMarc
+
+# Dynamically Generating DAGs in Airflow
+https://www.astronomer.io/guides/dynamically-generating-dags/
+
+# Loggers
+
+# Configuración del archivo de logger.cfg
+https://docs.python.org/3/library/logging.config.html#logging-config-fileformat
+
+# Ejemplo de archivo de configuración
+https://realpython.com/lessons/logger-config-file/
+
+
