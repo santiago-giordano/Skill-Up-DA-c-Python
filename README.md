@@ -166,3 +166,30 @@ https://docs.python.org/3/library/logging.config.html#logging-config-fileformat
 
 # Ejemplo de archivo de configuración
 https://realpython.com/lessons/logger-config-file/
+
+# Create a S3 bucket into AWS.
+Create a S3 bucket and call it as you want.
+
+![image](https://user-images.githubusercontent.com/2921066/194301926-a98e757b-d618-432c-b103-98a2e91a563c.png)
+
+## Structure of S3 bucket
+This is an important part, as I follow a specific folder structure in python scripts. Define the structure as follow:
+
+![image](https://user-images.githubusercontent.com/2921066/194302089-19e765a9-ef40-4245-9bbc-a53b2f0080e3.png)
+
+After create the s3 bucket, upload into the folder "preprocess/" the csv file that is located in the root path "talks_info.csv".
+
+## S3 IAM user
+In order to be able to interact with the S3 bucket, we have to create an user (or use an existing one).
+
+![image](https://user-images.githubusercontent.com/2921066/194302165-2ce84708-2f99-4669-a013-d1ff17558f0f.png)
+
+## Permissions for the user
+Since we have many services and specific permissions to interact with them, we have to assign the S3 permission to the new user.
+
+![image](https://user-images.githubusercontent.com/2921066/194302244-d96f0220-34f6-4eb2-97cc-05db9fc0d7f2.png)
+
+## Credentials
+This is a very important step. You have to make sure of copy and save the credentials because we will use them later.
+
+![image](https://user-images.githubusercontent.com/2921066/194302285-47cbb07e-4128-40f3-aabd-0c7c3a276831.png)
