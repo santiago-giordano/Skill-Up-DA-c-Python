@@ -136,6 +136,8 @@ https://academy.alkemy.org/curso/python/contenidos/clase-1-introduccion-a-flujos
 https://hevodata.com/learn/airflow-hooks/
 
 # Create a S3 bucket into AWS.
+https://docs.aws.amazon.com/es_es/elastictranscoder/latest/developerguide/gs-2-create-s3-buckets.html
+
 Create a S3 bucket and call it as you want.
 
 ![image](https://user-images.githubusercontent.com/2921066/194301926-a98e757b-d618-432c-b103-98a2e91a563c.png)
