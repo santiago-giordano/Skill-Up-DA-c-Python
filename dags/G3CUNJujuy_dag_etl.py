@@ -40,7 +40,7 @@ with DAG(
                 query = my_file.read()
             hook = PostgresHook(postgres_conn_id="alkemy_db")
             df = hook.get_pandas_df(sql=query)
-            df.to_csv("include/3CUJujuy_db.csv")
+            df.to_csv("files/3CUJujuy_db.csv")
             logging.info("Extraccion exitosa!")
         except Exception as e:
             logging.exception("Exception occurred", exc_info=True)
@@ -51,7 +51,7 @@ with DAG(
         #################################### 2. TRANSFORM #####################################################
         logging.info("Inicio de la transformacion!")
         try:
-            with open("include/3CUJujuy_db.csv", "r", encoding="utf-8") as my_file:
+            with open("files/3CUJujuy_db.csv", "r", encoding="utf-8") as my_file:
                 df = pd.read_csv(my_file, index_col=[0])
             
             first_value = df['age'].values[0]
@@ -84,7 +84,7 @@ with DAG(
             
             #################################### COMPLETA CAMPO LOCATION ######################################
             with open(
-                "include/codigos_postales.csv",
+                "assets/codigos_postales.csv",
                 "r",
                 encoding="utf-8",
             ) as my_file:
@@ -203,9 +203,9 @@ with DAG(
             ###################################################################################################
 
             #################################### EXPORTACION CSV ##############################################
-            df.to_csv("include/3CUJujuy_select.csv")
+            df.to_csv("datasets/3CUJujuy_select.csv")
             df.to_csv(
-                "include/3CUJujuy_process.txt",
+                "datasets/3CUJujuy_process.txt",
                 sep="\t",
                 index=None,
             )
@@ -224,7 +224,7 @@ with DAG(
                 aws_secret_access_key=SECRET_ACCESS_KEY,
             )
             s3 = session.resource("s3")
-            data = open("include/3CUJujuy_process.txt", "rb")
+            data = open("datasets/3CUJujuy_process.txt", "rb")
             s3.Bucket("alkemy-p3").put_object(
                 Key="preprocess/3CUJujuy_process.txt", Body=data
             )
